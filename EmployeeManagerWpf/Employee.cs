@@ -9,6 +9,7 @@ namespace EmployeeManagerCSharp
     class Employee
     {
         private int employeeNum;
+
         public int EmployeeNum
         {
             get { return employeeNum; }
@@ -17,6 +18,7 @@ namespace EmployeeManagerCSharp
 
         public string name { get; set; }
 
+        // CONSTRUCTOR
         public Employee(int employeeNum, string name)
         {
             this.employeeNum = employeeNum;
